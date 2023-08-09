@@ -1,0 +1,17 @@
+html {
+    height: 100vh;
+}
+.bg {
+    background-image: url("https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table {
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+.titles {
+    border-bottom: 1px solid #96e0ff;
+}

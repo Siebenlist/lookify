@@ -1,0 +1,5 @@
+com\example\lookify\repositories\SongRepository.class
+com\example\lookify\LookifyApplication.class
+com\example\lookify\models\Song.class
+com\example\lookify\services\SongService.class
+com\example\lookify\controllers\SongsController.class
