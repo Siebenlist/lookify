@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Titulo: <span th:text=${song.titulo}></span></p>
+    <p>Artista: <span th:text=${song.artista}></span></p>
+    <p>Clasificacion: <span th:text=${song.clasificacion}></span></p>
+
+    <form th:action="@{/songs/{id}(id=${song.id})}" method="post" onsubmit="return confirm('Vas a eliminar esta canción')">
+        <button class="delete-button" type="submit">Eliminar</button>
+    </form>
+</body>
+</html>
